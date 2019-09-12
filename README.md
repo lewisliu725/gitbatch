@@ -15,10 +15,10 @@ The batch to execute git commands on multiple repositories.
    
    The commands below will pull and rebase the code for all the code repositories under current folder.
    ```bash
-   gitb pull --rebase --autostach
+   gitb pull --rebase --autostash
    ```
   
    
 
 # Usage for Linux
-All of the steps are same as the usage for Windows, the only difference is ***gitb.sh*** will be used instead of ***gitb.bat***.
+All the steps are same as the usage for Windows, the only difference is ***gitb.sh*** will be used instead of ***gitb.bat***.
