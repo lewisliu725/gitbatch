@@ -6,7 +6,7 @@ git config --global credential.helper store
 # Count the total affected directories
 TOTAL_NUM=0
 
-# Traversal all items in current directory, find directories which contains .git
+# Traversal all the items in current directory, find the directories which contains .git
 for dir in `ls`; do
   if [ -d "$dir/.git" ];
   then
