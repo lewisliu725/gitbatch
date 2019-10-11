@@ -1,9 +1,9 @@
 #!/bin/bash
-# remember username and password to avoid entering every time
+# Remember username and password
 git config --global credential.helper store
-# count the total directories that exec the command
+# Count the total directories that exec the command
 TOTAL_NUM=0
-# traversal all files and directories in current directory, find directories which contain .git
+# Traversal all files and directories in current directory, find directories which contain .git
 for dir in `ls`; do
   if [ -d "$dir/.git" ];
   then
@@ -15,4 +15,4 @@ for dir in `ls`; do
     cd ..
   fi
 done
-echo "Total $TOTAL_NUM directories completed!!"
+echo "Total $TOTAL_NUM directories completed."
