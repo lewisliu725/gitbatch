@@ -21,4 +21,4 @@ The batch to execute git commands on multiple repositories.
    
 
 # Usage for Linux
-All the steps are same as the usage for Windows, the only difference is ***gitb.sh*** will be used instead of ***gitb.bat***.
+All the steps are same as the steps for Windows, the only difference is ***gitb.sh*** will be used instead of ***gitb.bat***.
